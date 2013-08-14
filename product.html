@@ -7,9 +7,10 @@
     See: http://necolas.github.com/normalize.css/
   -->
   <link rel="stylesheet" href="normalize.css">
-
-  <!-- Put your challenge-specific CSS in here -->
+  <!--  <link rel="stylesheet" href="bootstrap.css"> -->
   <link rel="stylesheet" href="main.css">
+
+  <script src="bootstrap.js"></script>
   <title></title>
 </head>
 <body>
@@ -19,7 +20,13 @@
     </header>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a>
+          <ul class="submenu">
+            <li><a href="#">Foo</a></li>
+            <li><a href="#">Bar</a></li>
+            <li><a href="#">Baz</a></li>
+          </ul>
+        </li>
         <li><a href="#">Tour</a></li>   
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About</a></li>
